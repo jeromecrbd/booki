@@ -1,0 +1,316 @@
+body {
+    width: auto;
+}
+
+/*premiere ligne*/
+img.booki {
+    width: 10%;
+}
+
+.debut {
+    padding-bottom: 0%;
+    padding-top: 4%;
+}
+
+nav {
+    display: contents;
+}
+
+.navbar {
+    padding-block-start: 2%;
+    margin-right: 3%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.block1 {
+    padding-left: 0%;
+}
+
+h1 {
+    font-size: x-large;
+    margin-left: 12%;
+    margin-block-start: 4%;
+}
+
+p {
+    margin-left: 32%;
+}
+
+/*FIN premiere ligne*/
+
+/*barre rech*/
+.rech {
+    margin-left: 32%;
+}
+
+.mark {
+    font-size: 16px;
+    padding: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#recherche {
+    font-size: medium;
+    padding-left: 6%;
+    padding-right: 18%;
+}
+
+.loupe {
+    visibility: visible;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 6%;
+    background-color: #0065fc;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.btnRechercher {
+    display: none;
+}
+
+/*FIN barre rech*/
+
+/*ligne filtre et i de info*/
+.filtre {
+    font-size: 16px;
+    margin-inline-start: 4%;
+}
+
+.filtre-element {
+    margin-right: 0%;
+}
+
+.bulle1,
+.bulle3,
+.bulle4 {
+    background-color: #f2f2f2;
+    padding: 12px;
+}
+
+.bulle2 {
+    background-color: #f2f2f2;
+    padding: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+#plus {
+    font-size: medium;
+    margin-left: 2%;
+}
+
+/*FIN ligne filtre et i*/
+
+/*hebergement*/
+.partie1 {
+    flex-direction: column-reverse;
+}
+
+.block2 {
+    padding-block-start: 2%;
+}
+
+#marseille {
+    font-size: x-large;
+    padding-left: 32%;
+}
+
+#hebergements {
+    width: auto;
+    background-color: #fff;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-block: 1%;
+    padding-block-start: 1%;
+    box-shadow: 4px 10px 6px 0px #f2f2f2;
+}
+
+.element,
+.element1,
+.element2,
+.element3,
+.element4,
+.element5 {
+    width: 100%;
+    box-shadow: 0px 0px 8px 10px #f2f2f2;
+}
+
+.hebMarseille {
+    width: 27%;
+}
+
+.nom {
+    font-size: 16px;
+}
+
+.Afficher {
+    font-size: medium;
+    float: right;
+    margin-right: 2%;
+}
+
+/*FIN hebergement*/
+
+/*populaire*/
+#populaires {
+    background-color: #fff;
+    box-shadow: 4px 10px 6px 0px #f2f2f2;
+    width: auto;
+    padding-block-start: 4%;
+}
+
+#pluspop {
+    padding-left: 37%;
+}
+
+.ligne {
+    margin-right: 4%;
+}
+
+.partie2 {
+    width: 98%;
+}
+
+.block3 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.Pop {
+    width: auto;
+    margin-left: 10%;
+}
+
+.elements {
+    padding: 2px;
+    display: block;
+    box-shadow: 8px 4px 2px 6px #f2f2f2;
+    line-height: 12px;
+}
+
+.elements1 {
+    padding: 2px;
+    display: block;
+    box-shadow: 0px 8px 8px 4px #f2f2f2;
+    line-height: 12px;
+}
+
+.elements2 {
+    padding: 2px;
+    display: block;
+    box-shadow: -8px 4px 2px 6px #f2f2f2;
+    line-height: 12px;
+}
+
+.presentation {
+    line-height: 28px;
+}
+
+img.pop {
+    height: auto;
+    width: auto;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.nomP {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*FIN populaire*/
+
+/*activités*/
+#activites {
+    border-radius: 10px / 10px;
+    background-color: #fff;
+    padding-block-start: 4%;
+    padding-block-end: 4%;
+    margin-block-end: 4%;
+    box-shadow: 4px 10px 6px 0px #f2f2f2;
+}
+
+#Active {
+    margin-left: 37%;
+    font-size: x-large;
+}
+
+.nomA {
+    font-size: small;
+}
+
+.partie2 {
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    padding-block-start: 2%;
+}
+
+.ElementA,
+.ElementD {
+    line-height: 25px;
+    box-shadow: 6px 4px 2px 6px #f2f2f2;
+}
+
+.ElementB,
+.ElementC,
+.ElementE,
+.ElementF {
+    box-shadow: -6px 4px 2px 6px #f2f2f2;
+}
+
+.ElementC {
+    margin-top: 12%;
+}
+
+.ElementF {
+    margin-top: 10%;
+}
+
+.Element {
+    flex-direction: row;
+    width: auto;
+    margin-right: 5%;
+}
+
+.haute {
+    width: auto;
+}
+
+.large {
+    width: auto;
+}
+
+/*FIN activités*/
+
+/*footer*/
+footer {
+    display: flex;
+    flex-direction: row;
+    margin-block-end: 68%;
+    padding-block-start: 2%;
+    padding-block-end: 2%;
+}
+
+.propos {
+    line-height: 35px;
+    font-size: 14px;
+    margin-left: -10%;
+}
+
+.nos {
+    line-height: 35px;
+    font-size: 14px;
+    padding-left: 30%;
+    margin-right: -30%;
+}
+
+.assist {
+    line-height: 35px;
+    font-size: 14px;
+    padding-left: 90%;
+    margin-right: -90%;
+}
+
+/*FIN footer*/
